@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Playwrite GB S", serif;
+}
+.navbar-container{
+    width: 100%;
+    height: 80px;
+    background-color: lightblue;
+    position: relative;
+
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+nav{
+    position: relative;
+}
+.navbar-itens{
+    list-style: none;
+    position: absolute;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    right: 10px;
+    top: 0;
+}
+.navbar-itens li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+.navbar-itens li a{
+    color: floralwhite;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.navbar-itens li a:hover{
+    color: rgba(128, 128, 128, 0.616);
+}
+.default-btn{
+    padding: 15px 20px;
+    background-color: rgb(26, 155, 14);
+    border-radius: 15px;
+}
+.default-btn:hover{
+    background-color: rgb(26, 155, 14);
+}
+.navbar-itens .btn a{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+.background{
+    background-image: url(../img/mainbanner.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.background h1{
+    color: aliceblue;
+    font-size: 64px;
+    font-weight: 900;
+}
+.background h2{
+    color: aliceblue;
+    font-size: 32px;
+    font-weight: 600;
+}
+.service-container{
+    padding: 5em 0;
+}
+.service-container ul{
+    display: flex;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+}
+.service-container ul li{
+    flex:1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+.fa-solid{
+    font-size: 60px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.fa-shield-halved{
+    color: rgb(51, 128, 128);
+}
+.fa-rocket{
+    color: rgb(90, 92, 86);
+}
+.fa-comments{
+    color: rgb(141, 26, 41);
+}
